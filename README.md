@@ -1,11 +1,11 @@
-# 🧮 Java Calculator using Postfix
+# Java Calculator using Postfix
 
 A simple **Java calculator** that evaluates arithmetic expressions using **postfix notation**.  
 This project accepts **infix expressions** (the usual way we write math, e.g., `X + Y`), converts them into **postfix notation** (e.g., `X Y +`), and then calculates the result using a **stack-based approach**.
 
 ---
 
-## 🚀 Features
+## Features
 - Accepts standard arithmetic expressions in **infix notation**  
 - Converts infix expressions to **postfix notation**  
 - Evaluates postfix expressions using **stack operations** (`push` and `pop`)  
@@ -14,7 +14,7 @@ This project accepts **infix expressions** (the usual way we write math, e.g., `
 
 ---
 
-## 🧠 Example
+## Example
 
 **Infix Expression:**  
 (5 + 3) * 2 - 4 / 2
@@ -28,15 +28,11 @@ This project accepts **infix expressions** (the usual way we write math, e.g., `
 
 ---
 
-## 🖼️ Screenshot
-
-Here is a screenshot of the calculator in action:  
-
-![Java Postfix Calculator]()
+![Java Postfix Calculator](https://github.com/LeFLEUR-ui/java-calculator/blob/main/output.webp?raw=true)
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **Input:** The user enters an arithmetic expression in **infix notation**.  
 2. **Conversion:** The expression is converted into **postfix notation** using the **Shunting Yard algorithm**.  
